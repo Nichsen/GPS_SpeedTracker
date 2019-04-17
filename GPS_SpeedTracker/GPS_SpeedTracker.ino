@@ -8,7 +8,7 @@ static const int RXPin = 3, TXPin = 4; //GPS communication
 static const uint32_t GPSBaud = 9600;
 
 #define OLED_RESET 4
-Adafruit_SSD1306 display(OLED_RESET); //Connection to I2C SCL und SDA!
+Adafruit_SSD1306 display(OLED_RESET); //Connection to I2C SCL and SDA!
 
 TinyGPSPlus gps;
 SoftwareSerial ss(RXPin, TXPin);
