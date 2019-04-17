@@ -5,7 +5,7 @@ Hardware:
 - Arduino Nano 
 - AZDelivery GPS
 - AZDelivery OLED I2C 128x64 px 0.96 Zoll
-- 1S LiPo 3.7V with connector (used in RC-planes / Drones)
+- 1Cell LiPo 3.7V with connector (used in RC-planes / Drones)
 
 
 
