@@ -115,7 +115,7 @@ void loop()
   display.display();
   smartDelay(800);
 
-  if (millis() > 5000 && gps.charsProcessed() < 10)
+  //if (millis() > 5000 && gps.charsProcessed() < 10)
    // display.setCursor(0, 0);
   //lcd.print("Sat.   ERROR");
 }
@@ -131,4 +131,3 @@ static void smartDelay(unsigned long ms)
       gps.encode(ss.read());
   } while (millis() - start < ms);
 }
-
